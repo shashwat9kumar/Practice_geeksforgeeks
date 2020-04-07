@@ -1,0 +1,28 @@
+Given a number (greater than 2), print two prime numbers whose sum will be equal to given number, else print -1 if no such number exists.
+
+NOTE: A solution will always exist if the number is even. Read Goldbach’s conjecture.
+
+If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, and a < c then print [a, b] only
+and not all possible solutions.
+
+Input:
+The first line contains an integer T, depicting total number of test cases. Then following T lines contains an integer N.
+
+Output:
+Print the two prime numbers in a single line with space in between.
+
+Constraints:
+1 ≤ T ≤ 50
+2 ≤ N ≤ 1000000
+
+Example:
+Input:
+2
+8
+3
+Output
+3 5
+-1
+
+Explanation:
+Testcase 1: two prime numbers from 1 to 8 are 3 and 5 whose sum is 8.
