@@ -7,11 +7,14 @@ import java.math.*;
 class Sum_of_Divisors {
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		System.out.println("Enter the number of test cases : ");
 		int t=sc.nextInt();
 		
 		while(t-- > 0)
 		{
+			
+			System.out.println("Enter the number whse sum of divisor is to be found : ");
+			
 		    int num=sc.nextInt();
 		    BigInteger sum = new BigInteger("0");
 		    
