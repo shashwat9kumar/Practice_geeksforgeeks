@@ -8,11 +8,13 @@ class Compare_Two_Fractions
 		
 		Scanner sc = new Scanner(System.in);
 		
+		
+		System.out.println("Enter the number of test cases : ");
 		int t = sc.nextInt();
 		
 		while(t-- > 0)
 		{
-			
+			System.out.println("Enter the fractions : ");
 			String x = sc.next();
 			String y = sc.next();
 			
@@ -56,15 +58,7 @@ class Compare_Two_Fractions
 			}
 			
 			
-			/*
-			System.out.println(str1[0]);
-			System.out.println(str1[1]);
 			
-			
-			System.out.println(str2[0]);
-			System.out.println(str2[1]);
-			
-			*/
 		}
 		
 	}
